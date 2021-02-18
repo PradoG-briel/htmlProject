@@ -1,0 +1,228 @@
+p{
+    width: inherit;
+    
+    /*Estabelece uma altura minima para a caixa*/
+    min-height:20px;
+    
+    /*Permite deixar o elemento automatico para a altura*/
+    height: auto;
+    
+    /*TRava a caixa para haver estouro com barra de rolagem*/
+    overflow:hidden; 
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    line-height: 1.5;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    /*Trava o elemento para não sofrer mudanças de tamanho por causa do padding*/
+    box-sizing: border-box;
+}
+
+.conteudo{
+    /*Largura padrão do site*/
+    width: 1300px;
+    height: inherit;
+    /*Centralizar um elemento*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaMenu{
+    width: inherit;
+    height: inherit;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+}
+
+#menu{
+    width: inherit;
+    height:55px;
+}
+
+.menuItem{
+    width: 250px;
+    height: inherit;
+    list-style: none;
+    font-family: verdana;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menuItem:hover{
+    background-color: red;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo{
+    width: 150px;
+    height: 55px;
+    margin-left: 0px;
+    margin-right: 130px;
+    background-color: purple;
+    float: left;
+}
+
+#sobre{
+    width: inherit;
+    height: 500px;
+    background-color: gray;
+    margin-top: 5px;
+    background-image: url(/img/backGround.jpg);
+}
+.cont{
+    width: 650px;
+    height: inherit;
+    background-color: red;
+    float: left;
+    margin-left: 100px;
+    margin-right: 430px;
+    border-radius: 15px;
+    border-style:solid;
+}
+.img{
+    width: 650px;
+    height: inherit;
+    background-color: purple;
+    float: left;
+    border-radius: 15px;
+
+}
+#cursos{
+    width: inherit;
+    height: 500px;
+    background-color: gray;
+    margin-top: 5px;    
+}
+.imgContCurso{
+    width: 486px;
+    height: inherit;
+    background-color: darkslateblue;
+    float: left;
+}
+.contCurso{
+    width: 485px;
+    height: inherit;
+    background-color:  purple;
+    float: left;
+}
+#professores{
+    width: inherit;
+    height: 500px;
+    background-color: gray;
+    margin-top: 5px;
+}
+.imgProf{
+    width: 450px;
+    height: inherit;
+    background-color: red;
+    float: left;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+.txtProf{
+    width: 450px;
+    height: inherit;
+    background-color: white;
+    margin-right: 0px;
+    float: left;
+    border-radius: 15px;
+}
+
+.imgContProf{
+    width: 450px;
+    height: inherit;
+    background-color: red;
+    float: left;
+    margin-left: 72px;
+    border-radius: 15px;
+}
+.txtContProf{
+    width: 450px;
+    height: inherit;
+    background-color: white;
+    float: left;
+    border-radius: 15px;
+    
+}
+#parceirias{
+    width: inherit;
+    height: 300;
+    background-color: gray;
+    margin-top: 5px;
+}
+.parceiro{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    float: left;
+    margin-left: 190px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.parceiros{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    float: left;
+    border-radius: 15px;
+}
+
+#contatos{
+    width: inherit;
+    height: 80px;
+    background-color: red;
+}
+.contato{
+    width: inherit;
+    height: 40px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    margin-left: 270px;
+    margin-top: 20px;
+    font-family: verdana;
+    font-size: 1.5em;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+
+
+
+
